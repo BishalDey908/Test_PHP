@@ -97,6 +97,8 @@ if(isset($_POST["Name"])){
         <input type="submit" value="Submit">
     </form>
 
+    <button><a href="./showData.php">See Datas</a></button>
+
     <?php
     if($isSubmit == true){
         echo "Form subimitted success!";
